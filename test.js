@@ -11,10 +11,8 @@ const template = `
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Redom SSR experiment</title>
+    <title>RE:DOM SSR</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script nomodule src="https://unpkg.com/browser-es-module-loader/dist/babel-browser-build.js"></script>
-    <script nomodule src="https://unpkg.com/browser-es-module-loader">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/redom/3.14.2/redom.es.js"></script>
     <style type="text/css">
       body {
@@ -59,6 +57,7 @@ const template = `
     </style>
   </head>
   <body class="">
+    <h1>RE:DOM SSR and rehydration experiment</h1>
   </body>
 </html>
 `;
